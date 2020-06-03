@@ -219,7 +219,7 @@ li a {
   margin-left: 0em;
   border-style: solid;
   width: 100%;
-  height:auto;/*resim yukseligi**/
+  height:auto;
   box-sizing: border-box;
   background-color: white;
   border-style: dotted;
@@ -243,7 +243,7 @@ li a {
   box-sizing: border-box;
 
   border-style: solid;
-  border-color:transparent;/*borderi sidiğimizde photo asahıya iniyor**/
+  border-color:transparent;
 
 
   }
@@ -779,7 +779,7 @@ box-sizing: border-box;
 
 }
 .activity{
-/*5px daha sol yap*/
+
     padding-top:10px;
     padding-bottom: 20px;
     width: inherit;
@@ -973,7 +973,7 @@ box-sizing: border-box;
 }
 .sagAlt{
     float: right;
-    margin-top:7px;/**sil**/
+    margin-top:7px;
     float: left;
     margin-left :19px;
  

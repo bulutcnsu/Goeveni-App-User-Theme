@@ -1,0 +1,1092 @@
+body{
+    margin: 0;
+    position: relative;
+    background-color:#F0F0F0 ;
+    /**  #F0F0F0  **/
+}
+
+#header{
+   
+    margin:0;
+    padding-top:4px;
+    padding-left:3px;
+    width: 100%;
+    height: 8.7vh;
+    position:relative;
+    background-color: #313131;
+}
+.logo{
+    float: left;
+    display:inline-block;
+    padding-top: 0.95em;
+    padding-left:103px;
+
+ 
+    width: 25%;
+    box-sizing: border-box;
+    height:inherit;
+}
+.menu1{
+    float:left;
+    margin-left:0;
+    margin-top: 0em;
+    display: inline-block;
+    padding-left: 8px;
+    padding-top: 1px;
+  
+    width: auto;
+    box-sizing: border-box;
+    height: inherit;
+    
+    
+}
+#nav1.ul{
+    margin-top: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    height: inherit;
+    list-style: none;
+    float: left;
+    vertical-align: baseline;
+    
+  
+
+}
+
+li {
+    float: left;
+     text-decoration-style:solid;
+    list-style: none;
+    display: list-item;
+    vertical-align: baseline;
+   /* font-family: Roboto;*/
+ 
+}
+
+li a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family: Roboto;*/
+
+    color: 	#A9A9A9;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: 50%;
+    text-align: left;
+    padding: 6px 13px;
+    text-decoration: none;
+
+}
+.buton{
+    float: left;
+    margin-left:0;
+    margin-top: 0em;
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    box-sizing: border-box;
+    font-weight: 549;
+    padding-left:7px;
+
+}
+.button1{
+    margin-top: 3px;
+    margin-left: 24px;
+    margin-right: 23px;
+    padding:10.5px 15.7px 10.5px 15.7px;
+    background-color: #ff7555;
+    font-weight: 500;
+    border-radius: 4px;
+    border:none;
+    color:#F8F8F8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+       
+}
+.button1 :hover{
+    background-color:#FF6347
+}
+.notif{
+    float:left;
+    margin-top:0em;
+    display: inline-block;
+    width: 16%;
+    height: inherit;
+    box-sizing: border-box;
+
+}
+.icons {
+    float: left;
+    padding-top :5px;
+    padding-left:20px;
+    margin-left: inherit;
+    display: inline-block;
+ 
+    width: 100%;
+    list-style: none;
+    box-sizing: border-box;
+   
+
+}
+#icons.li{
+   
+    list-style: none;
+    box-sizing: border-box;
+    padding-left:0px;
+    display: inline-block;
+}
+.account{
+    float: left;
+    margin-top: 0;
+    margin-left: inherit;
+    display: inline-block;
+
+    height: inherit;
+    width:12%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* font-family: Roboto;*/
+      color: #848D95;
+    
+    
+
+}
+.userPBorder{
+    float: left;
+    margin-top: 8px;
+    margin-left: 12px;
+    display: inline-block;
+     border: 0.5px solid;
+    border-color: #DCDCDC;
+    border-radius: 50%;
+    width: 35px;
+    height:35px;
+
+}
+.userPhoto{
+   float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+ 
+    border-radius: 50%;
+    width: 35px;
+    height:35px;
+    background-image: url("/images/joe35.jpg");
+    background-size: cover;
+ 
+}
+.text{
+    float: left;
+    margin-top: 0px;
+    margin-top: 0px;
+    padding-left:8px;
+    display: inline-block;
+    height: inherit;
+    padding-top:17px;
+    padding-bottom: 10px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* font-family: Roboto;*/
+    color:		#BEBEBE;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 450;
+    
+
+}
+.downIcon{
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-left: 6px;
+
+}
+#backPhoto{
+    margin-top: 0em;
+/*** 1352x350 **/
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+  
+   
+     
+}
+  .container{
+  margin-top:0em;
+  margin-left: 0em;
+  border-style: solid;
+  width: 100%;
+  height:auto;/*resim yukseligi**/
+  box-sizing: border-box;
+  background-color: white;
+  border-style: dotted;
+  border-color:white;
+ 
+
+
+ 
+  }
+  .profilBack{
+  width: 100%;
+  box-sizing: border-box;
+
+  }
+  .altprofil{
+  margin-top:0;
+  margin-left: 91px;
+  margin-right: 91px;
+  background-color: white;
+  height: 116px;
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-color:transparent;/*borderi sidiğimizde photo asahıya iniyor**/
+
+
+  }
+  .photoSet{
+    backface-visibility: visible;
+    margin-top: -3.5em;
+   
+  }
+  .mainPhoto{
+  
+      margin-top:0em;
+      margin-left: 15px;
+      display:inline-block;
+      float: left;
+      border-radius: 50%;
+      width: 145px;
+      height:145px;
+      background-image: url("/images/joeB.jpeg");
+      background-size: cover;
+      position: absolute;
+
+      border-style:solid;
+      border-color:white;
+  }
+.mainInfo{ 
+  margin-top: 3.5em;
+  margin-left:150px;
+  width:220px;
+  height: 120px;
+  padding-left: 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+ 
+
+    }
+    .name{
+
+        margin-top: 0em;
+        padding-top:12px;
+        padding-left: 15px;
+        height:40px ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /*font-family: Roboto;*/
+        text-size-adjust: 100%;
+        color:#313131;
+        box-sizing: border-box;
+        font-size: 1.6em;
+        font-weight: 650;
+    }
+    .infoUser{
+    margin-top:0em;
+    height:32px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family: Roboto;*/
+    text-size-adjust: 100%;
+    color:	#808080;
+    padding-top: 7px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 14.5px;
+    font-weight: 480;
+
+    }
+    .country{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /*font-family: Roboto;*/
+        text-size-adjust: 100%;
+        color: 	#808080;
+        font-size: 15px;
+        font-weight: 480;
+        padding-left: 14px;
+        padding-top:0px;
+      
+
+    }
+   
+    .infoRight{
+  margin-top: -7.5em;
+  margin-left:200px;
+  box-sizing: border-box;
+  display: inline-block;
+  width:800px;
+  height: 120px;
+  float:right;
+
+
+    }
+  
+         .discussions{
+        margin-top: 4px;
+        height: inherit;
+        box-sizing: border-box;
+        text-align: center;
+        width:110px;
+        float:right;
+        padding-top:13px;
+        padding-left:10px;
+        color: #848D95;
+       
+    
+       }
+       .discussNum{
+        margin-top:10px;
+        padding-left:7px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 600;
+        color:#313131;
+
+       }
+
+       .events{
+
+        margin-top: 4px;
+        height: inherit;
+        box-sizing: border-box;
+        width: 85px;
+        height: inherit;
+        float:right;
+        text-align: center;
+        padding-top:13px;
+        color: #848D95;
+        
+
+    }
+    .eventsNum{
+        margin-top:10px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 600;
+        color:#313131;
+
+    }
+    .butonAlt{
+        margin-top: 0;
+        height: inherit;
+        box-sizing: border-box;
+        width: 150px;
+        height: inherit;
+        float:right;
+     
+       }
+       .button2{
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 5px;
+        padding: 9.7px 18.96px 9.7px 18.96px;
+        background-color: #ff7555;
+        border-radius: 4px;
+        border:none;
+        color:white;
+
+       }
+       
+       .ortaBack{
+           margin:0px;
+           width: 100%;
+           height: auto;
+           box-sizing: border-box;
+        
+                 }
+.ortaAlan{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100.5%;
+    height:auto;
+    background-color: #F0F0F0;
+      box-sizing: border-box;
+
+}
+.altMenu{
+    margin-left: 60px;
+    margin-top: 35px; 
+    display: inline-block;
+    width: auto;
+    box-sizing: border-box;
+    padding-bottom:30px;
+  
+}
+#nav2.ul{
+    margin-top: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    height: inherit;
+  
+    text-size-adjust: 100%;
+    color:#313131;
+    font-weight:100;
+    list-style: none;
+
+}
+.liAlt{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family: Roboto;*/
+
+    padding-left:-10px;
+    list-style: none;
+    display: list-item;
+    vertical-align: baseline;  
+    display: list-item;
+
+}
+.liAlt a{
+   float: left;
+    text-align: left;
+    padding: 4px 17.4px ;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family: Roboto;*/
+
+}
+.solAlt{
+    margin-top:10px;/**sil**/
+    margin-left:111px;
+    margin-right: 15px;
+ 
+    width: 262.5px;
+    height: 1240px;
+    float:left;
+    box-sizing: border-box;
+    background-color: #F0F0F0;
+  
+}
+.solAlt1{
+
+    margin-top: 0px;
+    margin-left: 0px;
+    border:2px solid #F0F0F0;
+    border-radius:4px;
+    padding-bottom: 22px;
+    box-sizing: border-box;
+    background-color: white;
+    border-style: solid;
+    border-bottom: 1.5px solid #DCDCDC;
+}
+.nav3{
+    height: auto;
+    padding-left: 0px;
+    margin-bottom:35px;
+    box-sizing: border-box;  
+
+ 
+  
+}
+.ul3{
+
+padding-left: 0px;/*hr çizgisinin yeri*/
+}
+#pSocial{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* font-family: "Elephant";*/
+    font-size:18.4px;
+    text-size-adjust: 100%;
+    color:#313131;
+    padding-left:14px;
+    font-weight: 700;
+    
+  
+}
+
+.liSocial{
+padding-top:10px;
+padding-left:0px;
+padding-right: 20px;
+padding-bottom: 15px;
+font-size: 10px;
+
+}
+.liSocial a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:13px;
+    color:#78C0E1;
+}
+
+.solAlt2{
+
+    margin-top: 30px;
+    margin-left: 0px;
+    border:2px solid #F0F0F0;
+    border-radius:4px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.nav4{
+
+    padding-left: 0px;
+    background-color: white;
+    height: auto;
+    border-bottom: 1.5px solid #DCDCDC;
+    
+ 
+  
+}
+.ViewLine{
+
+    padding-top:10px;
+    padding-left:8px;
+    backface-visibility: visible;
+    padding-bottom:4px;
+    height: 50px;
+  }
+.photoArea1{
+    display:inline-block; 
+    padding-top:4px;
+    margin-left:7px;
+    border: 0.5px solid;
+    border-color:white;
+    background-image: url("/images/joe35.jpg");
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    float: left;
+
+}
+.nameArea{
+    margin-top: -14px;
+    margin-left: 42px;
+    display:inline-block; 
+    width: auto;
+    padding-left:5px;
+  }
+.buttonAdd1{
+    margin-top:-46px;
+    margin-left: 136px;
+    float:right;
+    width: 40px;
+    height: 40px;
+  
+    border-radius: 3px;
+        border: 2px solid #DCDCDC;
+    display: inline-block;
+     background-image: url("/images/add-buton.ico");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: white;
+ }
+ .photoArea2{
+    display:inline-block; 
+    padding-top:4px;
+    margin-left:7px;
+    border: 0.5px solid;
+    border-color:white;
+    background-image: url("/images/girl2.jpg");
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    float: left;
+
+}
+ .buttonAdd2{
+    margin-top:-46px;
+    margin-left: 136px;
+    float:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+
+    border: 2px solid #DCDCDC;
+    display: inline-block;
+     background-image: url("/images/user-accept-icon.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color:#ff7555;
+ }
+ .photoArea3{
+    display:inline-block; 
+    padding-top:4px;
+    margin-left:7px;
+    border: 0.5px solid;
+    border-color:white;
+    background-image: url("/images/boy2.jpg");
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    float: left;
+
+}
+ .buttonAdd3{
+    margin-top:-46px;
+    margin-left: 136px;
+    float:right;
+    width: 40px;
+    height: 40px;
+ 
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #DCDCDC;
+    display: inline-block;
+     background-image: url("/images/add-buton.ico");
+     background-repeat: no-repeat;
+     background-position: center;
+ 
+ }
+ .photoArea4{
+    display:inline-block; 
+    padding-top:4px;
+    margin-left:7px;
+    border: 0.5px solid;
+    border-color:white;
+    background-image: url("/images/tom.jpg");
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    float: left;
+
+}
+ .buttonAdd4{
+    margin-top:-46px;
+    margin-left: 136px;
+    float:right;
+    width: 40px;
+    height: 40px;
+
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #DCDCDC;
+    display: inline-block;
+     background-image: url("/images/add-buton.ico");
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .photoArea5{
+    display:inline-block; 
+    padding-top:4px;
+    margin-left:7px;
+    border: 0.5px solid;
+    border-color:white;
+    background-image: url("/images/ricky.jpg");
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    float: left;
+
+}
+ .buttonAdd5{
+    margin-top:-46px;
+    margin-left: 136px;
+    float:right;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 3px;
+    background-color: white;
+    border: 2px solid #DCDCDC;
+    display: inline-block;
+     background-image: url("/images/add-buton.ico");
+     background-repeat: no-repeat;
+     background-position: center;
+   
+ }
+
+.ortaAlt{
+ margin-top:10px;/**sil**/
+float:left;
+margin-left:15px;
+margin-right: 10px;;
+width: 555px;
+height: 1268px;
+box-sizing: border-box;
+box-sizing: border-box;
+
+}
+
+.ortaAlt1{
+margin:0px;
+height: 195px;
+padding:15px 10px 20px 15px;
+border:2px solid #F0F0F0;
+border-radius:4px;
+background-color: white;
+border-bottom: 1.5px solid #DCDCDC;
+box-sizing: border-box;
+
+}
+.photoText{
+    float:left;
+    width: 60px;
+    height: 100px;
+    border: 0.5px solid;
+    border-color: #DCDCDC;
+    background-image: url("/images/joe35.jpg");
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+       
+}
+.textArea1{
+    float: left;
+    margin-left:10px;
+    padding-left:10px;
+    padding-top: 13px;
+    width: 445px;
+    height: 95px;
+      
+}
+.ActButton1{
+    margin-top:110px;
+    padding-right: 5px;
+    padding-top:10px;
+    width: inherit;
+    height: 40px;
+ 
+}
+.buttonAct1{
+    float:right;
+    padding: 11px 20px 11px 20px;
+    background-color: #ff7555;
+    border-radius: 4px;
+    border:none;
+    color:white;
+}
+.ortaAlt2{
+    margin-top:30px;
+    width: 553;
+    height: 430px;
+    border-radius: 4px;
+    border-style: 1px solid;
+    border-bottom: 1.5px solid #DCDCDC;
+    box-sizing: border-box;
+    background-color: white;
+
+
+}
+.activity{
+/*5px daha sol yap*/
+    padding-top:10px;
+    padding-bottom: 20px;
+    width: inherit;
+    height: auto;
+}
+.photoText1{
+    margin-left:15px;
+    float:left;
+    width: 60px;
+    height: 100px;
+    border: 0.5px solid;
+    border-color: #DCDCDC;
+    background-image: url("/images/joe35.jpg");
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+         
+
+}
+
+.isimPost1{
+    float: left;
+    margin-right: 0px;;
+    margin-left:10px;
+    width: 440px;
+    height: 45px;
+    box-sizing: border-box;
+    line-height: 20px;
+    padding-left:10px;
+
+}
+.dot{
+    padding-right: 10px;
+    float: right;
+    background-image: url("./images/3dots.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;;
+}
+
+.isimAlani{
+    margin-top: 10px;
+    font-size:16px;
+    font-weight: 600;
+    color: #313131;
+}
+
+
+.postAlani1{
+    margin-top:35px;
+    font-size: 15px;
+    font-weight: 400;
+  
+    line-height: 2;
+    color: #847577;
+    margin-left:15px;
+
+}
+.comments{
+    width: 553;
+    height: 35px;
+}
+.leftCom{
+    margin-left:15px;
+    margin-top:4px;
+    width: 250px;
+    height: inherit;
+    float:left;
+    font-weight: 400;
+ 
+    color: #847577;
+    cursor: pointer;
+   
+}
+.rightCom{
+    margin-top:4px;
+    margin-right:20px;
+    float:right;
+    font-weight: 400;
+   
+    color: #847577;
+    cursor: pointer;
+
+}
+.activityReply{
+    margin-top:-20px;
+    margin-left:15px;
+    float:left;
+    width: auto;
+    height: 100px;
+ 
+
+}
+.photoText2{
+    margin-top:10px;
+    float:left;
+    border: 0.5px solid;
+    border-color: #DCDCDC;
+    background-image: url("/images/boy2.jpg");
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+}
+    .postAlani2{
+        margin-top:55px;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: -5px;
+
+        color: #847577;
+        border-style: solid;
+        border-color:transparent;
+        padding-bottom: 8px;
+    
+    }
+
+.photoText3{
+    margin-top:60px;
+    margin-left:15px;
+    float:left;
+    width: 60px;
+    height: 100px;
+    border: 0.5px solid;
+    border-color: #DCDCDC;
+    background-image: url("/images/joe35.jpg");
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+         
+}
+
+.textArea2{
+    float:left;
+    margin-top:65px;
+    margin-left:17px;
+    width:395px;
+    border-style: 1px solid;
+    border-radius:4px;
+    box-sizing: border-box;
+    display: inline-block;
+      
+}
+.butonReply{
+    float: right;
+     margin-right: 15px;
+    margin-top: -40px;
+
+}
+.button3{
+    padding:12px 29px 12px 29px;
+    background-color: #ff7555;
+    font-weight: 500;
+    border-radius: 4px;
+    border:none;
+    color:#F8F8F8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+
+}
+
+.ortaAlt3{
+    margin-top:30px;
+    width: 553;
+    height: 213px;
+
+    border-style: 1px solid;
+    border-bottom: 1.5px solid #DCDCDC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+
+
+}
+.ortaAlt4{
+        margin-top:30px;
+        width: 553;
+        height: 213px;
+    
+        border-style: 1px solid;
+        border-bottom: 1.5px solid #DCDCDC;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: white;  
+    
+}
+.sagAlt{
+    float: right;
+    margin-top:7px;/**sil**/
+    float: left;
+    margin-left :19px;
+ 
+    width: 264.5px;
+    height: 1240px;
+   
+    box-sizing: border-box;
+    background-color: #BEBEBE;
+    box-sizing: border-box;
+    
+
+    
+    border-style: 1px solid;
+    border-bottom: 1.5px solid #F0F0F0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:#F0F0F0;
+  
+}
+.sagAlt1{
+  margin-bottom: 20px;
+  background-color:#DCDCDC;
+  padding-left: -12px;;
+  width:262.5px;
+  height:auto;
+  
+
+}
+
+.sagAlt2
+{  
+  margin-top:30px;
+    width:262.5px;
+    height:auto;
+    box-sizing: border-box;
+
+}
+.sagAlt3
+{  
+    margin-top:30px;
+    width:262.5px;
+    height:410px;
+    box-sizing: border-box;
+    background-color: white;
+
+    border-bottom: 1.5px solid #DCDCDC;
+    border-radius: 4px;
+}
+.sagIcIlk{
+    padding-top: 5px;
+    padding-left: 2px;
+}
+.habitsName{
+
+    height: 70px;
+    width: inherit;
+    padding-top:5px;
+    padding-left:10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+ 
+}
+.upName{
+    margin-top:5px;
+    height:auto;
+    width: inherit;
+    margin-bottom: 10px;
+
+}
+.more{
+    margin-top:5px;
+    padding-top:10px;
+    padding-left:90px;
+    width: inherit;
+
+}
+.mesafe{
+    margin-top:10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+}
+.footer{
+    width: 1350px;
+    height: 65px;
+    margin-top: 78%;
+    margin-left:-980px;
+    margin-right: 0px;
+    float: left;
+    text-align: left;
+    border-style:solid;
+    border-color:green;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+}
+.solTaraf{
+    padding-top:20px;
+    padding-left:150px;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    color:#808080;
+ 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.sagTaraf{
+   padding-top :10px;
+    float:right;
+    padding-right:30px;
+    float:right;
+    font-size: 15px;
+     color: #404040;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
